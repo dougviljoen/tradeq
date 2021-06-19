@@ -1,6 +1,6 @@
-# tradeq
+# tradeQ
 
-An app that builds a feed from favourite trademe searches.
+An app that generates a feed from favourited Trademe searches.
 
 ## Getting Started
 

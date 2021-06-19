@@ -1,5 +1,5 @@
 name: tradeq
-description: An app that builds a feed from favourite trademe searches.
+description: An app that generates a feed from favourited Trademe searches.
 
 publish_to: 'none'
 version: 1.0.0+1
