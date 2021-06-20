@@ -1,16 +1,24 @@
 name: tradeq
-description: An app that generates a feed from favourited Trademe searches.
-
+description: A search feed for Trademe.
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  bloc: ^6.1.0
   cupertino_icons: ^1.0.2
+  equatable: ^1.2.3
+  flutter_bloc: ^6.1.0
+  formz: ^0.3.0
+  meta: ^1.1.8
+  pedantic: ^1.9.0
+  flutter_webview_plugin: ^0.3.11
+  trademe_repository:
+    path: packages/trademe_repository
 
 dev_dependencies:
   flutter_test:
@@ -18,3 +26,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/
